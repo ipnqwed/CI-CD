@@ -9,4 +9,4 @@ app.get("/api", (req, res) => {
   res.json({ status: "OK", time: new Date() });
 });
 
-app.listen(3060, () => console.log("server running on port 3000"));
+app.listen(3000, () => console.log("server running on port 3000"));
