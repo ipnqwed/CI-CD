@@ -5,5 +5,5 @@ RUN npm install
 COPY . .
 EXPOSE 3000
 CMD ["node", "index.js"]
-ENV MESSAGE="anjay CI/CD"
+ENV MESSAGE="anjay CI/CD v2"
 
